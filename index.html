@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="styles.css">
 
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -28,9 +28,6 @@
                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#additional" class="nav__link">Additional</a></li>
-                        <!--<li class="nav__item"><a href="#about" class="nav__link">About</a></li>-->
-                        <!--<li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>-->
-                        <!--<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>-->
                     </ul>
                 </div>
 
@@ -41,38 +38,35 @@
         </header>
 
         <main class="l-main">
+             
+
             <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <!--<h1 class="home__title"><span>HE</span><br>LLO.</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>-->
-
-                    <div class="home__scroll">
-                        <br><br> <br><br> <br><br> <br><br>
-                        <h2 class="about__subtitle" style="color:antiquewhite;">I'am Manish</h2>
-                        <span class="about__profession" style="color:antiquewhite;">Passionate Technophile & Innovator</span>
-                        <p class="about__text" style="color:antiquewhite;">
-                            Currently pursuing a Master of Computer Applications (MCA),<br> 
-                            With a robust background in PHP web development, <br>
-                            Currently transitioning into Data Science and Machine Learning. <br>
+            <section class="about section" id="home">
+                
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="/img/profile.jpg" alt="">
+                    </div>
+            
+                    <div>
+                        <h2 class="about__subtitle">I'am Manish</h2>
+                        <span class="about__profession">Passionate Technophile & Innovator</span>
+                        <p class="about__text">
+                            Currently pursuing a Master of Computer Applications (MCA), I thrive on technology's cutting edge. With a robust background in PHP web development, Currently I am transitioning into Data Science and Machine Learning. I aim to leverage data for strategic decisions and innovative solutions.
                         </p>
             
-                        <div class="about__social"  >
-                            <a href="#" class="about__social-icon" style="color:antiquewhite;"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#" class="about__social-icon" style="color:antiquewhite;" ><i class='bx bxl-github' ></i></a>
-                            <a href="#" class="about__social-icon" style="color:antiquewhite;"><i class='bx bxl-dribbble' ></i></a>
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/manish-3b6142207/" class="about__social-icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/ManishShettigar253" class="about__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.instagram.com/manish__shettigar?igsh=aGlwemQwdzc2N3g2 " class="footer__social" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-report' ></i></a>
                         </div>
                     </div>
-                    <div>
-                        <img src="profile.jpg" alt="" class="home__img" style="border-radius:30%; height: 500px; width:500px;">
-              
-                    </div>
-                      </div>
+                </div>
             </section>
-            
+
+
+
             
              <!--===== EXPERIENCE =====-->
              <section class="skills section" id="experience">
@@ -85,21 +79,25 @@
                         <span class="skills__name">Internship</span>
                         <span class="skills__name">Jul 2024 - Ongoing</span>
                         <span class="skills__name">On-Site</span>
-
+                        <span class="skills__name">Learning and Implementing Gen AI, Data Science and Cloud Computing.</span>
+                        
                         <h3 class="skills__subtitle">Machine Learning Intern - Atharvo</h3>
                         <span class="skills__name">Internship</span>
                         <span class="skills__name">Jan 2024 - Feb 2024</span>
                         <span class="skills__name">Remote</span>
-
+                        <span class="skills__name">Learnt and Implemented ML models, conducted data analysis and preprocessing using Python.</span>
+                        
+                        <!--
                         <h3 class="skills__subtitle">Human Resources Intern - Suvidha Foundation</h3>
                         <span class="skills__name">Internship</span>
                         <span class="skills__name">Jun 2022 - Jul 2022</span>
                         <span class="skills__name">Remote</span>
-                        
+                        <span class="skills__name">Hired Coding tutors for Code-Karo-Yaro initiative by posting jobs on LinkedIn, conducting telephonic interviews, and managing applicant data in Google sheets.</span>
+                    -->
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="/img/experience.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -129,7 +127,7 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="/img/education.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -141,12 +139,12 @@
                 <div class="skills__container bd-grid">
                     <div class="skills__box">
                         
-                        <h3 class="skills__subtitle">Expense Tracker</h3>
+                        <h3 class="skills__subtitle">Expense Tracker <a href="https://github.com/ManishShettigar253/Expense_Tracker" class="about__social-icon" style="color:rgb(105, 118, 232);" target="_blank"><i class='bx bxl-dribbble' ></i></a></h3>
                         <span class="skills__name">A Web App that helps individuals to keep track of their daily expenses.</span>
                         <span class="skills__name">HTML, CSS, Python, Flask & MongoDB</span>
                         <span class="skills__name">Jun 2024 - Jul 2024</span>
 
-                        <h3 class="skills__subtitle">Dairy Management System</h3>
+                        <h3 class="skills__subtitle">Dairy Management System <a href="https://github.com/ManishShettigar253/Dairy_Management_System" class="about__social-icon" style="color:rgb(105, 118, 232);" target="_blank"><i class='bx bxl-dribbble' ></i></a></h3>
                         <span class="skills__name">It manages all dairy operations, including customer details, milk inventory and billing.</span>
                         <span class="skills__name">HTML, CSS, PHP & MySQL</span>
                         <span class="skills__name">Feb 2024 - May 2024</span>
@@ -155,12 +153,12 @@
 
                     <div class="skills__box">
                         
-                        <h3 class="skills__subtitle">Asset Maestro</h3>
+                        <h3 class="skills__subtitle">Asset Maestro <a href="https://github.com/ManishShettigar253/Asset_Management_System" class="about__social-icon" style="color:rgb(105, 118, 232);" target="_blank"><i class='bx bxl-dribbble' ></i></a></h3>
                         <span class="skills__name">This App manages employee-assigned assets in an Org.</span>
                         <span class="skills__name">HTML, CSS, Java, Springboot & MySQL</span>
                         <span class="skills__name">Feb 2024 - May 2024</span>
 
-                        <h3 class="skills__subtitle">Electronic Service Solutions</h3>
+                        <h3 class="skills__subtitle">Electronic Service Solutions <a href="https://github.com/ManishShettigar253/Electronic_Service_Solutions" class="about__social-icon" style="color:rgb(105, 118, 232);" target="_blank"><i class='bx bxl-dribbble' ></i></a></h3>
                         <span class="skills__name">Manages all aspects of electronic repair shop, including customer info, item details, services, billing, live updates, dashboards and reports.</span>
                         <span class="skills__name">HTML, CSS, PHP & MySQL</span>
                         <span class="skills__name"><i class="fas fa-clock"></i>Feb 2023 - Jul 2023</span>
@@ -206,7 +204,7 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="/img/skills.jpeg" alt="">
                     </div>
                 </div>
             </section>
@@ -237,93 +235,43 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="/img/additional.jpeg" alt="">
                     </div>
                 </div>
             </section>
 
-            
-            <!--===== ABOUT =====
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-            
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="profile.jpg" alt="">
-                    </div>
-            
-                    <div>
-                        <h2 class="about__subtitle">I'am Manish</h2>
-                        <span class="about__profession">Passionate Technophile & Innovator</span>
-                        <p class="about__text">
-                            Currently pursuing a Master of Computer Applications (MCA), I thrive on technology's cutting edge. With a robust background in PHP web development, I am transitioning into Data Science and Machine Learning. I aim to leverage data for strategic decisions and innovative solutions.
-                        </p>
-            
-                        <div class="about__social">
-                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-            ===== CONTACT =====
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">info.mail.com</span>
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+20 999-999</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">My contry</span>
-                    </div>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="Enviar" class="contact__button">
-                    </form>
-                </div>
-            </section>
-        </main>-->
+         
 
         <!--===== FOOTER =====-->
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
                     <h2 class="footer__title">Manish</h2>
-                    <p class="footer__text">I'm Manish and this is my personal website</p>
+                    <p class="footer__text">I'm Manish and this is my personal Portfolio website</p>
+                    <p class="footer__text">+91 9606742493</p>
+                    <p class="footer__text">manishshettigar25@gmail.com</p>
+                    <p class="footer__text">Karnataka,DK- 574154</p>
                 </div>
 
                 <div class="footer__data">
                     <h2 class="footer__title">EXPLORE</h2>
                     <ul>
                         <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#experience" class="footer__link">Experience</a></li>
+                        <li><a href="#education" class="footer__link">Education</a></li>
+                        <li><a href="#projects" class="footer__link">Projects</a></li>
                         <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#additional" class="footer__link">Additional</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer__data">
                     <h2 class="footer__title">FOLLOW</h2>
-                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/manish-3b6142207/" class="footer__social" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/ManishShettigar253" class="footer__social" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.instagram.com/manish__shettigar?igsh=aGlwemQwdzc2N3g2 " class="footer__social" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-report' ></i></a>
                 </div>
-
 
             </div>
         </footer>
@@ -332,6 +280,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
